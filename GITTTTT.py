@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 def counthats(count,am_cats):
     allcats=[]
     if count<=am_cats:
@@ -15,7 +9,8 @@ def counthats(count,am_cats):
                         allcats.append(cats)
                     else:
                         allcats.remove(cats)
-                    m=print(f"These cats are with {allcats}",len(allcats))
+        m=print(f"These cats {allcats} are with hats.There are {len(allcats)} cats with hats")
+    
     else:
         print("Rounds are greater than cats")
         m=print("Nothing") 
@@ -38,17 +33,3 @@ while True:
     counthats(count_rounds,count_cats)
 
     
-    
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
